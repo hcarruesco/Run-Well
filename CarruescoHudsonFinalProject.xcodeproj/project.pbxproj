@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D41E4802769ABDB0071D4C7 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41E47F2769ABDB0071D4C7 /* MoreInfoViewController.swift */; };
+		3DCD4FC827629E0000F68F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FC727629E0000F68F2E /* AppDelegate.swift */; };
+		3DCD4FCA27629E0000F68F2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FC927629E0000F68F2E /* SceneDelegate.swift */; };
+		3DCD4FCC27629E0000F68F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FCB27629E0000F68F2E /* ViewController.swift */; };
+		3DCD4FCF27629E0000F68F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FCD27629E0000F68F2E /* Main.storyboard */; };
+		3DCD4FD127629E0800F68F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FD027629E0800F68F2E /* Assets.xcassets */; };
+		3DCD4FD427629E0800F68F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FD227629E0800F68F2E /* LaunchScreen.storyboard */; };
+		3DCD4FDF27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FDE27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.swift */; };
+		3DCD4FE927629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FE827629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.swift */; };
+		3DCD4FEB27629E0900F68F2E /* CarruescoHudsonFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FEA27629E0900F68F2E /* CarruescoHudsonFinalProjectUITestsLaunchTests.swift */; };
+		3DCD4FFC27629F3300F68F2E /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FF827629F3200F68F2E /* TimeViewController.swift */; };
+		3DCD4FFD27629F3300F68F2E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FF927629F3200F68F2E /* LocationViewController.swift */; };
+		3DCD500027629F5F00F68F2E /* RunningScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FFF27629F5E00F68F2E /* RunningScoreViewController.swift */; };
+		3DCD5006276305C000F68F2E /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD5005276305C000F68F2E /* LocationModel.swift */; };
+		3DCD50082764477700F68F2E /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD50072764477700F68F2E /* WeatherModel.swift */; };
+		3DCD500A2765602700F68F2E /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD50092765602700F68F2E /* TimeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCD4FDB27629E0900F68F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCD4FBC27629E0000F68F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCD4FC327629E0000F68F2E;
+			remoteInfo = CarruescoHudsonFinalProject;
+		};
+		3DCD4FE527629E0900F68F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCD4FBC27629E0000F68F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCD4FC327629E0000F68F2E;
+			remoteInfo = CarruescoHudsonFinalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D41E47F2769ABDB0071D4C7 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		3DCD4FC427629E0000F68F2E /* CarruescoHudsonFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarruescoHudsonFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD4FC727629E0000F68F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCD4FC927629E0000F68F2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DCD4FCB27629E0000F68F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCD4FCE27629E0000F68F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCD4FD027629E0800F68F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCD4FD327629E0800F68F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCD4FD527629E0800F68F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCD4FDA27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarruescoHudsonFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD4FDE27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarruescoHudsonFinalProjectTests.swift; sourceTree = "<group>"; };
+		3DCD4FE427629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarruescoHudsonFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD4FE827629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarruescoHudsonFinalProjectUITests.swift; sourceTree = "<group>"; };
+		3DCD4FEA27629E0900F68F2E /* CarruescoHudsonFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarruescoHudsonFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DCD4FF827629F3200F68F2E /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		3DCD4FF927629F3200F68F2E /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		3DCD4FFF27629F5E00F68F2E /* RunningScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningScoreViewController.swift; sourceTree = "<group>"; };
+		3DCD5005276305C000F68F2E /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		3DCD50072764477700F68F2E /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		3DCD50092765602700F68F2E /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCD4FC127629E0000F68F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FD727629E0900F68F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FE127629E0900F68F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCD4FBB27629E0000F68F2E = {
+			isa = PBXGroup;
+			children = (
+				3DCD4FC627629E0000F68F2E /* CarruescoHudsonFinalProject */,
+				3DCD4FDD27629E0900F68F2E /* CarruescoHudsonFinalProjectTests */,
+				3DCD4FE727629E0900F68F2E /* CarruescoHudsonFinalProjectUITests */,
+				3DCD4FC527629E0000F68F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCD4FC527629E0000F68F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD4FC427629E0000F68F2E /* CarruescoHudsonFinalProject.app */,
+				3DCD4FDA27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.xctest */,
+				3DCD4FE427629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCD4FC627629E0000F68F2E /* CarruescoHudsonFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD4FC727629E0000F68F2E /* AppDelegate.swift */,
+				3DCD4FF927629F3200F68F2E /* LocationViewController.swift */,
+				3DCD5005276305C000F68F2E /* LocationModel.swift */,
+				3DCD50092765602700F68F2E /* TimeModel.swift */,
+				3DCD50072764477700F68F2E /* WeatherModel.swift */,
+				3DCD4FFF27629F5E00F68F2E /* RunningScoreViewController.swift */,
+				3D41E47F2769ABDB0071D4C7 /* MoreInfoViewController.swift */,
+				3DCD4FF827629F3200F68F2E /* TimeViewController.swift */,
+				3DCD4FC927629E0000F68F2E /* SceneDelegate.swift */,
+				3DCD4FCB27629E0000F68F2E /* ViewController.swift */,
+				3DCD4FCD27629E0000F68F2E /* Main.storyboard */,
+				3DCD4FD027629E0800F68F2E /* Assets.xcassets */,
+				3DCD4FD227629E0800F68F2E /* LaunchScreen.storyboard */,
+				3DCD4FD527629E0800F68F2E /* Info.plist */,
+			);
+			path = CarruescoHudsonFinalProject;
+			sourceTree = "<group>";
+		};
+		3DCD4FDD27629E0900F68F2E /* CarruescoHudsonFinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD4FDE27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.swift */,
+			);
+			path = CarruescoHudsonFinalProjectTests;
+			sourceTree = "<group>";
+		};
+		3DCD4FE727629E0900F68F2E /* CarruescoHudsonFinalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD4FE827629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.swift */,
+				3DCD4FEA27629E0900F68F2E /* CarruescoHudsonFinalProjectUITestsLaunchTests.swift */,
+			);
+			path = CarruescoHudsonFinalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCD4FC327629E0000F68F2E /* CarruescoHudsonFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD4FEE27629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProject" */;
+			buildPhases = (
+				3DCD4FC027629E0000F68F2E /* Sources */,
+				3DCD4FC127629E0000F68F2E /* Frameworks */,
+				3DCD4FC227629E0000F68F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarruescoHudsonFinalProject;
+			productName = CarruescoHudsonFinalProject;
+			productReference = 3DCD4FC427629E0000F68F2E /* CarruescoHudsonFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCD4FD927629E0900F68F2E /* CarruescoHudsonFinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD4FF127629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProjectTests" */;
+			buildPhases = (
+				3DCD4FD627629E0900F68F2E /* Sources */,
+				3DCD4FD727629E0900F68F2E /* Frameworks */,
+				3DCD4FD827629E0900F68F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCD4FDC27629E0900F68F2E /* PBXTargetDependency */,
+			);
+			name = CarruescoHudsonFinalProjectTests;
+			productName = CarruescoHudsonFinalProjectTests;
+			productReference = 3DCD4FDA27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCD4FE327629E0900F68F2E /* CarruescoHudsonFinalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCD4FF427629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProjectUITests" */;
+			buildPhases = (
+				3DCD4FE027629E0900F68F2E /* Sources */,
+				3DCD4FE127629E0900F68F2E /* Frameworks */,
+				3DCD4FE227629E0900F68F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCD4FE627629E0900F68F2E /* PBXTargetDependency */,
+			);
+			name = CarruescoHudsonFinalProjectUITests;
+			productName = CarruescoHudsonFinalProjectUITests;
+			productReference = 3DCD4FE427629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCD4FBC27629E0000F68F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3DCD4FC327629E0000F68F2E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3DCD4FD927629E0900F68F2E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3DCD4FC327629E0000F68F2E;
+					};
+					3DCD4FE327629E0900F68F2E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3DCD4FC327629E0000F68F2E;
+					};
+				};
+			};
+			buildConfigurationList = 3DCD4FBF27629E0000F68F2E /* Build configuration list for PBXProject "CarruescoHudsonFinalProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCD4FBB27629E0000F68F2E;
+			productRefGroup = 3DCD4FC527629E0000F68F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCD4FC327629E0000F68F2E /* CarruescoHudsonFinalProject */,
+				3DCD4FD927629E0900F68F2E /* CarruescoHudsonFinalProjectTests */,
+				3DCD4FE327629E0900F68F2E /* CarruescoHudsonFinalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCD4FC227629E0000F68F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD4FD427629E0800F68F2E /* LaunchScreen.storyboard in Resources */,
+				3DCD4FD127629E0800F68F2E /* Assets.xcassets in Resources */,
+				3DCD4FCF27629E0000F68F2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FD827629E0900F68F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FE227629E0900F68F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCD4FC027629E0000F68F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD4FCC27629E0000F68F2E /* ViewController.swift in Sources */,
+				3DCD4FFC27629F3300F68F2E /* TimeViewController.swift in Sources */,
+				3DCD50082764477700F68F2E /* WeatherModel.swift in Sources */,
+				3DCD500A2765602700F68F2E /* TimeModel.swift in Sources */,
+				3DCD5006276305C000F68F2E /* LocationModel.swift in Sources */,
+				3DCD4FFD27629F3300F68F2E /* LocationViewController.swift in Sources */,
+				3DCD4FC827629E0000F68F2E /* AppDelegate.swift in Sources */,
+				3D41E4802769ABDB0071D4C7 /* MoreInfoViewController.swift in Sources */,
+				3DCD500027629F5F00F68F2E /* RunningScoreViewController.swift in Sources */,
+				3DCD4FCA27629E0000F68F2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FD627629E0900F68F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD4FDF27629E0900F68F2E /* CarruescoHudsonFinalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCD4FE027629E0900F68F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD4FEB27629E0900F68F2E /* CarruescoHudsonFinalProjectUITestsLaunchTests.swift in Sources */,
+				3DCD4FE927629E0900F68F2E /* CarruescoHudsonFinalProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCD4FDC27629E0900F68F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCD4FC327629E0000F68F2E /* CarruescoHudsonFinalProject */;
+			targetProxy = 3DCD4FDB27629E0900F68F2E /* PBXContainerItemProxy */;
+		};
+		3DCD4FE627629E0900F68F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCD4FC327629E0000F68F2E /* CarruescoHudsonFinalProject */;
+			targetProxy = 3DCD4FE527629E0900F68F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCD4FCD27629E0000F68F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD4FCE27629E0000F68F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCD4FD227629E0800F68F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCD4FD327629E0800F68F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCD4FEC27629E0900F68F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCD4FED27629E0900F68F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCD4FEF27629E0900F68F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarruescoHudsonFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Run Well";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3DCD4FF027629E0900F68F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarruescoHudsonFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Run Well";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3DCD4FF227629E0900F68F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarruescoHudsonFinalProject.app/CarruescoHudsonFinalProject";
+			};
+			name = Debug;
+		};
+		3DCD4FF327629E0900F68F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarruescoHudsonFinalProject.app/CarruescoHudsonFinalProject";
+			};
+			name = Release;
+		};
+		3DCD4FF527629E0900F68F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarruescoHudsonFinalProject;
+			};
+			name = Debug;
+		};
+		3DCD4FF627629E0900F68F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H892HSYZCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.carruesc.CarruescoHudsonFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarruescoHudsonFinalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCD4FBF27629E0000F68F2E /* Build configuration list for PBXProject "CarruescoHudsonFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD4FEC27629E0900F68F2E /* Debug */,
+				3DCD4FED27629E0900F68F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD4FEE27629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD4FEF27629E0900F68F2E /* Debug */,
+				3DCD4FF027629E0900F68F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD4FF127629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD4FF227629E0900F68F2E /* Debug */,
+				3DCD4FF327629E0900F68F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCD4FF427629E0900F68F2E /* Build configuration list for PBXNativeTarget "CarruescoHudsonFinalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD4FF527629E0900F68F2E /* Debug */,
+				3DCD4FF627629E0900F68F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCD4FBC27629E0000F68F2E /* Project object */;
+}
